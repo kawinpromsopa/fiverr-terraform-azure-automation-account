@@ -19,7 +19,7 @@ These types of resources are supported:
 
 ## Usage
 
-- `example/main.tf`
+- `deploy/main.tf`
 
 ```
 provider "azurerm" {
@@ -85,4 +85,4 @@ terraform init
 terraform apply 
 ```
 
-## NOTE: After you have deployed, You should create the `RunAsAccount` on Azure console at automation account service to provide privilege runbook execution.
+- NOTE: After you have deployed, You should create the `RunAsAccount` on Azure console at automation account service to provide privilege execution runbook.
