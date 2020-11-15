@@ -9,15 +9,14 @@ These types of resources are supported:
 
 - Resource group
 - Automation Account
-   - Import Dependency modules
    - Runbook
    - Schedule
 
-## Custom powershell script at:
+### Custom powershell script at:
 
 - `./deploy/runbook/script.ps1`
 
-## Usage
+### Usage
 
 - `deploy/main.tf`
 
@@ -78,7 +77,7 @@ module "automation_account" {
 ```
 
 
-## Authenticate and terraform init, apply under `./deploy` directory.
+### Authenticate and terraform init, apply under `./deploy` directory.
 ```
 az login
 terraform init
