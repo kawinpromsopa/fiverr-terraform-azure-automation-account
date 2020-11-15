@@ -15,7 +15,7 @@ These types of resources are supported:
 
 ## Custom powershell script at:
 
-- `./example/runbook/script.ps1`
+- `./deploy/runbook/script.ps1`
 
 ## Usage
 
@@ -78,7 +78,7 @@ module "automation_account" {
 ```
 
 
-## Authenticate and terraform init, apply
+## Authenticate and terraform init, apply under `./deploy` directory.
 ```
 az login
 terraform init
