@@ -84,3 +84,5 @@ az login
 terraform init
 terraform apply 
 ```
+
+## NOTE: After you have deployed, You should create the `RunAsAccount` on Azure console at automation account service to provide privilege runbook execution.
